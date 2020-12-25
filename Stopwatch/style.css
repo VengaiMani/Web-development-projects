@@ -1,0 +1,27 @@
+body {
+    background-color:hsla(41, 100%, 50%, 0.952)
+}
+.timer{
+text-align:center;
+margin-top:150px;
+font-size:40px;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+color:white;
+}
+#stopwatch {
+    margin-top:10px;
+    font-size:100px;
+}
+button{
+    margin:15px;
+    padding:25px;
+    background-color:hsla(41, 100%, 50%, 0.952);
+    border-radius: 12px;
+    border-color:white;
+    color:white;
+    padding-left:10%;
+    padding-right:10%;
+    font-size:2rem;
+    text-decoration:none;
+    cursor:pointer;
+}
