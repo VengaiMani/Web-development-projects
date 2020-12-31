@@ -1,0 +1,35 @@
+html, body{
+    height:100vh;
+    background:linear-gradient(to bottom,#7927b2,#fb3182);
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Castellar', Courier, monospace;
+    color:aliceblue;
+    margin-top: 50dp;
+    justify-content: center;
+}
+button{
+    padding:20px;
+    background-color: #e9e637;
+    font-size:2rem;
+    border-radius:20px;
+    color:aliceblue;
+}
+#quote{
+    color:aliceblue;
+    font-size: 3rem;
+    font-family:'Lucida Handwriting','sans-serif';
+    padding-left:5vmax;
+    padding-right:5vmax;
+    padding-top: 5vmax;
+    text-align:justify;
+}
+#author{
+    color:aliceblue;
+    font-size:2rem;
+    font-family:'Garamond';
+    text-align: right;
+    padding-right:10px;
+}
+

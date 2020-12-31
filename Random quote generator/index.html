@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <head>
     <title>Random quote generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body onload="newQuote()">
+    <h1>RANDOM QUOTE GENERATOR</h1>
+    <div id="quoteSection">
+        <h2 id="quote"></h2>
+        <h6 id="author"></h6>
+    </div>
+    <button onclick="newQuote()">New quote</button>
+    <script src="script.js"></script>
 </body>
 </html>
